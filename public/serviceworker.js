@@ -1,5 +1,3 @@
-import { cachedDataVersionTag } from "v8";
-
 const CAHCHE_NAME = "version-1";
 const urlsToCache = ["index.html", "offline.html"];
 
