@@ -9,7 +9,7 @@ const App = () => {
 
   const search = e => {
     if (e.key === "Enter") {
-      etchWeather(query)
+      fetchWeather(query)
         .then(data => {
           setWeather(data);
         })
